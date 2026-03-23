@@ -1,0 +1,68 @@
+# ============================================================
+#  Devine 3x — Auto Leaderboard Updater
+#  File: .github/workflows/update_leaderboard.yml
+#
+#  This workflow runs every 10 minutes, connects to your
+#  Rust server via SFTP, downloads the plugin data file,
+#  processes the top 10 players, and commits leaderboard.json
+# ============================================================
+
+name: Update Leaderboard
+
+on:
+  schedule:
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
+  # Also allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Check out the repo ──────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Install SFTP dependency ─────────────────────────
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+
+      # ── 3. Download plugin data file via SFTP ─────────────
+      - name: Download player data from server
+        env:
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          sshpass -e sftp \
+            -o StrictHostKeyChecking=no \
+            -o Port=2022 \
+            9og2ip9w.e10e4303@aus05.pinehosting.com:/home/container/oxide/data/DevineCombatCore_Players.json \
+            ./raw_players.json
+
+      # ── 4. Set up Python ───────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      # ── 5. Process data and write leaderboard.json ─────────
+      - name: Process leaderboard
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+        run: python process_leaderboard.py
+
+      # ── 6. Commit and push if leaderboard.json changed ─────
+      - name: Commit leaderboard update
+        run: |
+          git config user.name  "Devine Leaderboard Bot"
+          git config user.email "bot@devine3x.com"
+          git add leaderboard.json
+          # Only commit if there are actual changes
+          git diff --staged --quiet || git commit -m "Auto: leaderboard update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
