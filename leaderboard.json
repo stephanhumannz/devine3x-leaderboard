@@ -1,0 +1,16 @@
+{
+  "updated": "2026-03-23 20:00 UTC",
+  "wipe": "March 23 2026",
+  "players": [
+    { "name": "Player1",  "clan": "APEX", "kills": 0 },
+    { "name": "Player2",  "clan": "BOLT", "kills": 0 },
+    { "name": "Player3",  "clan": "",     "kills": 0 },
+    { "name": "Player4",  "clan": "VOID", "kills": 0 },
+    { "name": "Player5",  "clan": "APEX", "kills": 0 },
+    { "name": "Player6",  "clan": "",     "kills": 0 },
+    { "name": "Player7",  "clan": "BOLT", "kills": 0 },
+    { "name": "Player8",  "clan": "IRON", "kills": 0 },
+    { "name": "Player9",  "clan": "",     "kills": 0 },
+    { "name": "Player10", "clan": "VOID", "kills": 0 }
+  ]
+}
