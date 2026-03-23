@@ -20,7 +20,7 @@ jobs:
 
       - name: Download player data from server
         env:
-          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+          SSHPASS: ${{ secrets.SFTP_PASSWORD }}
         run: |
           sshpass -e sftp \
             -o StrictHostKeyChecking=no \
