@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23 11:06 UTC",
+  "updated": "2026-03-23 11:29 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
@@ -17,6 +17,13 @@
       "id": "76561198360617442"
     },
     {
+      "name": "SASSY",
+      "clan": "",
+      "kills": 1,
+      "streak": 1,
+      "id": "76561199230496084"
+    },
+    {
       "name": "DingusAlberdeen",
       "clan": "",
       "kills": 0,
@@ -24,18 +31,18 @@
       "id": "76561199379526549"
     },
     {
-      "name": "SASSY",
-      "clan": "",
-      "kills": 0,
-      "streak": 0,
-      "id": "76561199230496084"
-    },
-    {
       "name": "percocsets",
       "clan": "",
       "kills": 0,
       "streak": 0,
       "id": "76561199748707892"
+    },
+    {
+      "name": "batman",
+      "clan": "",
+      "kills": 0,
+      "streak": 0,
+      "id": "76561199175743633"
     }
   ]
 }
