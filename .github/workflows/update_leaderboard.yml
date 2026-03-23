@@ -25,7 +25,7 @@ jobs:
           sshpass -e sftp \
             -o StrictHostKeyChecking=no \
             -o Port=2022 \
-            9og2ip9w.e10e4303@aus05.pinehosting.com:/home/container/oxide/data/DevineCombatCore_Players.json \
+            9og2ip9w.e10e4303@aus05.pinehosting.com:oxide/data/DevineCombatCore_Players.json \
             ./raw_players.json
 
       - name: Set up Python
