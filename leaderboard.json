@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 10:30 UTC",
+  "updated": "2026-03-24 11:25 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
@@ -12,9 +12,16 @@
     {
       "name": "SASSY",
       "clan": "",
-      "kills": 4,
-      "streak": 4,
+      "kills": 6,
+      "streak": 0,
       "id": "76561199230496084"
+    },
+    {
+      "name": "batman",
+      "clan": "",
+      "kills": 2,
+      "streak": 1,
+      "id": "76561199175743633"
     },
     {
       "name": "Rabbi Bingus",
@@ -22,13 +29,6 @@
       "kills": 1,
       "streak": 1,
       "id": "76561198360617442"
-    },
-    {
-      "name": "batman",
-      "clan": "",
-      "kills": 1,
-      "streak": 1,
-      "id": "76561199175743633"
     },
     {
       "name": "ollie3rd fkd a fatty",
