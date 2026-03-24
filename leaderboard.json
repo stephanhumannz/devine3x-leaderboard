@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 09:33 UTC",
+  "updated": "2026-03-24 10:30 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
@@ -36,6 +36,13 @@
       "kills": 1,
       "streak": 1,
       "id": "76561199171885821"
+    },
+    {
+      "name": "gbant",
+      "clan": "",
+      "kills": 1,
+      "streak": 1,
+      "id": "76561199050093400"
     },
     {
       "name": "DingusAlberdeen",
