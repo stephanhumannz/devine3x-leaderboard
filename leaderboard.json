@@ -1,19 +1,19 @@
 {
-  "updated": "2026-03-25 03:57 UTC",
+  "updated": "2026-03-25 05:22 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
       "name": "Sippin Hennesy",
       "clan": "",
-      "kills": 8,
-      "streak": 0,
+      "kills": 9,
+      "streak": 1,
       "id": "76561199481967414"
     },
     {
       "name": "SASSY",
       "clan": "",
-      "kills": 6,
-      "streak": 0,
+      "kills": 7,
+      "streak": 1,
       "id": "76561199230496084"
     },
     {
@@ -24,11 +24,25 @@
       "id": "76561199175743633"
     },
     {
+      "name": "Gup gup",
+      "clan": "",
+      "kills": 2,
+      "streak": 0,
+      "id": "76561199615154630"
+    },
+    {
       "name": "Rabbi Bingus",
       "clan": "",
       "kills": 1,
       "streak": 1,
       "id": "76561198360617442"
+    },
+    {
+      "name": "DingusAlberdeen",
+      "clan": "",
+      "kills": 1,
+      "streak": 1,
+      "id": "76561199379526549"
     },
     {
       "name": "ollie3rd fkd a fatty",
@@ -45,11 +59,11 @@
       "id": "76561199050093400"
     },
     {
-      "name": "DingusAlberdeen",
+      "name": "Vedo",
       "clan": "",
-      "kills": 0,
-      "streak": 0,
-      "id": "76561199379526549"
+      "kills": 1,
+      "streak": 1,
+      "id": "76561198353220065"
     },
     {
       "name": "percocsets",
@@ -57,13 +71,6 @@
       "kills": 0,
       "streak": 0,
       "id": "76561199748707892"
-    },
-    {
-      "name": "cutiepatootie321",
-      "clan": "",
-      "kills": 0,
-      "streak": 0,
-      "id": "76561199098399231"
     }
   ]
 }
