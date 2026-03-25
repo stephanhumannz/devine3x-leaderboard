@@ -1,20 +1,20 @@
 {
-  "updated": "2026-03-25 09:26 UTC",
+  "updated": "2026-03-25 10:13 UTC",
   "wipe": "March 23 2026",
   "players": [
+    {
+      "name": "SASSY",
+      "clan": "",
+      "kills": 20,
+      "streak": 2,
+      "id": "76561199230496084"
+    },
     {
       "name": "Sippin Hennesy",
       "clan": "",
       "kills": 19,
       "streak": 0,
       "id": "76561199481967414"
-    },
-    {
-      "name": "SASSY",
-      "clan": "",
-      "kills": 18,
-      "streak": 0,
-      "id": "76561199230496084"
     },
     {
       "name": "Vedo",
@@ -41,7 +41,7 @@
       "name": "batman",
       "clan": "",
       "kills": 3,
-      "streak": 2,
+      "streak": 0,
       "id": "76561199175743633"
     },
     {
@@ -50,6 +50,13 @@
       "kills": 2,
       "streak": 0,
       "id": "76561198343134804"
+    },
+    {
+      "name": "ToFu",
+      "clan": "",
+      "kills": 2,
+      "streak": 0,
+      "id": "76561198957443487"
     },
     {
       "name": "Rabbi Bingus",
@@ -64,13 +71,6 @@
       "kills": 1,
       "streak": 1,
       "id": "76561199171885821"
-    },
-    {
-      "name": "gbant",
-      "clan": "",
-      "kills": 1,
-      "streak": 1,
-      "id": "76561199050093400"
     }
   ]
 }
