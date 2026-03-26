@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26 12:01 UTC",
+  "updated": "2026-03-26 13:53 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
@@ -33,9 +33,16 @@
     {
       "name": "DanderDingus",
       "clan": "",
-      "kills": 5,
+      "kills": 6,
       "streak": 0,
       "id": "76561199379526549"
+    },
+    {
+      "name": "Rabbi Bingus",
+      "clan": "",
+      "kills": 5,
+      "streak": 1,
+      "id": "76561198360617442"
     },
     {
       "name": "batman",
@@ -43,13 +50,6 @@
       "kills": 3,
       "streak": 0,
       "id": "76561199175743633"
-    },
-    {
-      "name": "Rabbi Bingus",
-      "clan": "",
-      "kills": 2,
-      "streak": 2,
-      "id": "76561198360617442"
     },
     {
       "name": "Apple...",
