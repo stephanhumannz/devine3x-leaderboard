@@ -1,12 +1,12 @@
 {
-  "updated": "2026-03-28 10:52 UTC",
+  "updated": "2026-03-28 11:21 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
       "name": "SASSY",
       "clan": "",
-      "kills": 20,
-      "streak": 2,
+      "kills": 21,
+      "streak": 3,
       "id": "76561199230496084"
     },
     {
@@ -19,8 +19,8 @@
     {
       "name": "Vedo",
       "clan": "",
-      "kills": 12,
-      "streak": 4,
+      "kills": 13,
+      "streak": 5,
       "id": "76561198353220065"
     },
     {
@@ -34,7 +34,7 @@
       "name": "Pear",
       "clan": "",
       "kills": 7,
-      "streak": 1,
+      "streak": 0,
       "id": "76561199379526549"
     },
     {
