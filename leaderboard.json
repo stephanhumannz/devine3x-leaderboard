@@ -1,20 +1,20 @@
 {
-  "updated": "2026-03-31 12:01 UTC",
+  "updated": "2026-03-31 13:58 UTC",
   "wipe": "March 23 2026",
   "players": [
+    {
+      "name": "Fent user",
+      "clan": "",
+      "kills": 22,
+      "streak": 3,
+      "id": "76561199481967414"
+    },
     {
       "name": "SASSY",
       "clan": "",
       "kills": 21,
       "streak": 3,
       "id": "76561199230496084"
-    },
-    {
-      "name": "Fent user",
-      "clan": "",
-      "kills": 20,
-      "streak": 1,
-      "id": "76561199481967414"
     },
     {
       "name": "Chingus",
