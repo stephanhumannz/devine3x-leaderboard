@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02 09:45 UTC",
+  "updated": "2026-04-02 10:37 UTC",
   "wipe": "March 23 2026",
   "players": [
     {
@@ -52,6 +52,13 @@
       "id": "76561199175743633"
     },
     {
+      "name": "vitala569",
+      "clan": "",
+      "kills": 3,
+      "streak": 3,
+      "id": "76561198786420305"
+    },
+    {
       "name": "Apple...",
       "clan": "",
       "kills": 2,
@@ -64,13 +71,6 @@
       "kills": 2,
       "streak": 0,
       "id": "76561198957443487"
-    },
-    {
-      "name": "lumpy space princess",
-      "clan": "",
-      "kills": 2,
-      "streak": 2,
-      "id": "76561199111050810"
     }
   ]
 }
